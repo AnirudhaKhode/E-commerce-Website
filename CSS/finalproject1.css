@@ -1,0 +1,46 @@
+.col-1 {width: 6.67%;}
+.col-2 {width: 13.34%;}
+.col-3 {width: 20.01%;}
+.col-4 {width: 26.68%;}
+.col-5 {width: 33.35%;}
+.col-6 {width: 40.02%;}
+.col-7 {width: 46.69%;}
+.col-8 {width: 53.36%;}
+.col-9 {width: 60.03%;}
+.col-10 {width: 66.7%;}
+.col-11 {width: 73.37%;}
+.col-12 {width: 80.04%;}
+.col-13 {width: 86.71%;}
+.col-14 {width: 93.38%;}
+.col-15 {width: 100%;}
+
+[class*="col-"] {
+  float: left;
+ 
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.category{
+  padding-left:3.335%;
+  padding-right:3.335%;
+}
+
+.category>img{
+	height:10%;
+}
+
+.category-label{
+  border-radius:10% 0% 0% 10% ;
+  padding: 6% 0% 6% 0%;
+  text-align: center;
+  font-size: x-large;
+  border:2px solid #007BFF;
+  color: #007BFF;
+  background-color: #EBF4FD;
+}
+
+
